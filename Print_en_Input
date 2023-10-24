@@ -1,0 +1,21 @@
+#In python kun je dingen printen, en ook input opvragen.
+#Printen doe je als volgt:
+print("Dit wordt uitgeprint")
+naam = "Dirk"
+print("Hallo, mijn naam is", naam)
+
+#In dit geval wordt de komma als een spatie geïnterpreteerd.
+#Als je niet een extra spatie wil toevoegen, kun je een + gebruiken:
+print("Hallo, mijn naam is" + naam)
+
+#In python wordt een input als volgt opgevraagd:
+naam = input("Je naam: ")
+
+#In dit geval wordt hetgeen dat tussen aanhalingstekens staat uitgeprint,
+# en daarna moet je iets invoeren. 
+#Wat je invoert, wordt opgeslagen in de variabele 'naam'
+#Let erop dat de python-input er altijd vanuit gaat dat je een string geeft.
+#Als je liever een getal wil ontvangen, moet je de invoerwaarde omzetten
+#naar een integer:
+leeftijd = int(input("Je leeftijd: "))
+print("Over een jaar ben je", leeftijd + 1, "jaar oud!")
