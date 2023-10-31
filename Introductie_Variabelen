@@ -39,8 +39,10 @@ leeftijd = 23
 #liggende streepjes en o.a. nummers. Zo is een variabelenaam als 'Persoon3' en 'Persoon_3'
 #toegestaan, maar een variabelenaam als '234' niet toegestaan.
 
-#Termen die je nu moet weten:
-#  -Variabele
-#  -String
-#  -Integer
-#  -Decimal
+
+#Dingen die je nu moet weten:
+#  Variabele
+#  String
+#  Integer
+#  Decimal
+#  Hoe je variabelen kunt aanpassen
