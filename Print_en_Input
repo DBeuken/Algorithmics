@@ -19,3 +19,8 @@ naam = input("Je naam: ")
 #naar een integer:
 leeftijd = int(input("Je leeftijd: "))
 print("Over een jaar ben je", leeftijd + 1, "jaar oud!")
+
+
+#Dingen die je nu moet weten:
+#  print()
+#  input()
