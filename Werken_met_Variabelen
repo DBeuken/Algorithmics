@@ -23,3 +23,10 @@ macht = waarde1 ** waarde2 #macht = 64
 #Veranderen tussen integers en strings doe je als volgt:
 int_persoonnr = int(persoonnr)
 str_waarde1 = str(waarde1)
+
+
+#Dingen die je nu moet weten:
+#  Omzetten naar strings
+#  Omzetten naar integers
+#  Rekenen met integers
+#  Strings aan elkaar plakken
