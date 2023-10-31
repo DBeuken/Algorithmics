@@ -38,3 +38,9 @@ leeftijd = 23
 #De naam van de variabele is altijd één woord en mag bestaan uit letters, hoofdletters,
 #liggende streepjes en o.a. nummers. Zo is een variabelenaam als 'Persoon3' en 'Persoon_3'
 #toegestaan, maar een variabelenaam als '234' niet toegestaan.
+
+#Termen die je nu moet weten:
+#  -Variabele
+#  -String
+#  -Integer
+#  -Decimal
