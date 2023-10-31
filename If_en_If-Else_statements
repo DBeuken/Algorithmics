@@ -1,1 +1,57 @@
+#In python werken we veel met if-statements
+#Dit zijn momenten waarbij je zegt: "Als [DIT] gebeurt, doe dan [DAT]".
+#Bijvoorbeeld:
+age = 19
+if age >= 18:
+  print("Volwassenen")
+
+#In het bovenstaande voorbeeld wordt er dus alleen "Volwassenen" geprint
+# als je ouder of even oud bent als 18. Als je niet zo oud bent, gebeurt
+# er niks.
+#Hetgeen dat onder de if-statement staat heet de 'if-statement body'.
+#De body wordt gekenmerkt door een tab op elke regel, zodat duidelijk is
+#welke regels bij de if-statement horen en welke daarbuiten staan.
+
+if age > 10:
+  print("Dit is de body van de if statement")
+print("Dit staat buiten de body van de if-statement")
+
+#Of je in de body van de if-statement komt ligt aan de conditie:
+#Op conditie van de statement wordt de body wel of niet benadert.
+
+
+#Er zijn naas if-statement ook if-else statements. Dit zijn statements
+#waarbij je alsnog in de else-body komt indien de if-statement niet goed
+#is.
+#Voorbeeld:
+
+if age >= 18:
+  print("Volwassen")
+else:
+  print("Kind")
+
+#Let hierbij op dat de body van de if-statement ook een tab verwijdert is
+# als de "else".
+
+#Tot slot heb je nog if-elif-else statements:
+
+if age >= 65:
+  print("Bejaard")
+elif age >= 18 and age < 65:
+  print("Volwassen")
+else:
+  print("Kind")
+
+#De elif-statement wordt dus geformuleerd als een if-statement en heeft dus
+# ook een conditie.
+
+#Dingen die je moet hebben geleerd:
+#  if-statement
+#  if-else statements
+#  if-elif-else statements
+#  if-body
+#  elif-body
+#  conditie
+
+
 
