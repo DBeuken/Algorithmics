@@ -1,0 +1,38 @@
+# Now that you know there are strings, integers, and decimals as variables,
+# it's time to see what you can do with them.
+# In the case of strings, you can't do much except concatenate them.
+# Example:
+name = "Dirk"
+person_number = "4"
+name_and_person_number = name + person_number  # name_and_person_number = "Dirk4"
+
+# In the case of integers and decimals, you can do much more:
+# Addition, subtraction, division, multiplication, modulo, and exponentiation:
+value1 = 8
+value2 = 2
+added = value1 + value2  # added = 10
+subtracted = value1 - value2  # subtracted = 6
+multiplied = value1 * value2  # multiplied = 16
+divided = value1 / value2  # divided = 4
+modulo = value1 % value2  # modulo = 0 because 8 / 2 = 4 remainder 0
+power = value1 ** value2  # power = 64
+
+# Integers can always be converted to strings; in that case, the number is seen as a word.
+# Strings can sometimes be converted to integers, but only if it represents a number.
+# Conversion between integers and strings is done as follows:
+int_person_number = int(person_number)
+str_value1 = str(value1)
+
+# Things you need to know now:
+#  Convert to strings
+#  Convert to integers
+#  Arithmetic with integers
+#  Concatenate strings
+
+# ---------------------------------------------------------------------
+# Exercises you should be able to do now.
+# 1) Create a variable 'age' as a string. Ensure that this variable represents your
+#    age in string form. Then show how you can convert the variable to an integer.
+# 2) Make it possible to perform calculations with two numbers. For that, create two variables:
+#    one variable for number1 and the other variable for number2.
+#    Then print out the sum and multiplication of the two numbers.
