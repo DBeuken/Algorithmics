@@ -1,13 +1,13 @@
-#Nu je weet dat er strings, integers en decimals zijn als variabelen,
-#Is het nu tijd om te kijken wat je ermee kunt doen.
-#In het geval van strings kun je niet veel doen, behalve ze aan elkee plakken.
-#Voorbeeld:
+# Nu je weet dat er strings, integers en decimals zijn als variabelen,
+# Is het nu tijd om te kijken wat je ermee kunt doen.
+# In het geval van strings kun je niet veel doen, behalve ze aan elkee plakken.
+# Voorbeeld:
 naam = "Dirk"
 persoonnr = "4"
 naam_en_persoonnr = naam + persoonnr #naam_en_persoonnr = "Dirk4"
 
-#In het geval van integers en decimals kun je veel meer doen:
-#Optellen, aftrekken, delen, vermenigvuldigen, modulo en macht berekenen:
+# In het geval van integers en decimals kun je veel meer doen:
+# Optellen, aftrekken, delen, vermenigvuldigen, modulo en macht berekenen:
 waarde1 = 8 
 waarde2 = 2 
 opgeteld = waarde1 + waarde2 #opgeteld = 10
@@ -17,16 +17,27 @@ delen = waarde1 / waarde2 #delen = 4
 modulo = waarde1 % waarde2 #modulo = 0 want 8 / 2 = 4 rest 0
 macht = waarde1 ** waarde2 #macht = 64
 
-#Integers kun je altijd naar strings veranderen, in dat geval wordt
-#het getal als een woord gezien.
-#Strings kun je soms naar integers veranderen: alleen als het een nummer is.
-#Veranderen tussen integers en strings doe je als volgt:
+# Integers kun je altijd naar strings veranderen, in dat geval wordt
+# het getal als een woord gezien.
+# Strings kun je soms naar integers veranderen: alleen als het een nummer is.
+# Veranderen tussen integers en strings doe je als volgt:
 int_persoonnr = int(persoonnr)
 str_waarde1 = str(waarde1)
 
 
-#Dingen die je nu moet weten:
+# Dingen die je nu moet weten:
 #  Omzetten naar strings
 #  Omzetten naar integers
 #  Rekenen met integers
 #  Strings aan elkaar plakken
+
+
+
+# ---------------------------------------------------------------------
+# Opdrachten die je nu moet kunnen maken.
+# 1) Maak een variabele 'leeftijd' aan als string. Zorg dat deze variabele jouw 
+#    leeftijd heeft in string-vorm. Laat daarna zien hoe je de variabele omzet
+#    naar een integer.
+# 2) Zorg dat je met twee getallen kunt rekenen. Maak daarvoor twee variabelen aan:
+#    een variabele voor getal1 en de andere variabele voor getal2.
+#    Print dan uit wat de som en vermenigvuldiging is van de twee getallen.
