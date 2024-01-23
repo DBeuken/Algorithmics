@@ -1,48 +1,54 @@
-#Hier ga ik variabelen behandelen.
-#Variabelen zijn eigenlijk een soort containers: Ze slaan informatie op.
-#Ik kan bijvoorbeeld een variabele maken genaamd 'naam' met de waarde 'Dirk'
-#Dat doe ik op de volgende manier:
+# Hier ga ik variabelen behandelen.
+# Variabelen zijn eigenlijk een soort containers: Ze slaan informatie op.
+# Ik kan bijvoorbeeld een variabele maken genaamd 'naam' met de waarde 'Dirk'
+# Dat doe ik op de volgende manier:
 naam = "Dirk"
 
-#In dit geval heb ik twee een variabele aangemaakt genaamd 'naam' met de waarde 'Dirk' erin.
-#Ik kan het ook als volgt noteren:
+# In dit geval heb ik twee een variabele aangemaakt genaamd 'naam' met de waarde 'Dirk' erin.
+# Ik kan het ook als volgt noteren:
 naam = 'Dirk'
 
-#In de bovenstaande gevallen heb ik een string aangemaakt.
-#Een string is eigenlijk een woord.
-#Voorbeelden van strings zijn als volgt:
+# In de bovenstaande gevallen heb ik een string aangemaakt.
+# Een string is eigenlijk een woord.
+# Voorbeelden van strings zijn als volgt:
 automerk = "Peugeot"
 favoriete_gerecht = "pizza"
 Kleur = "groen"
 
-#De waarden van strings worden altijd aangeduid met aanhalingstekens.
-#Dubbele aanhalingstekens aan beide kanten, of enkele aanhalingstekens aan beide kanten maakt niet uit.
-#In de bovenstaande gevallen gaat het steeds over strings (woorden), maar we hebben ook getallen.
-#Gehele getallen worden ook wel integers genoemd. 
-#Voorbeelden van integers zijn:
+# De waarden van strings worden altijd aangeduid met aanhalingstekens.
+# Dubbele aanhalingstekens aan beide kanten, of enkele aanhalingstekens aan beide kanten maakt niet uit.
+# In de bovenstaande gevallen gaat het steeds over strings (woorden), maar we hebben ook getallen.
+# Gehele getallen worden ook wel integers genoemd. 
+# Voorbeelden van integers zijn:
 leeftijd = 22
 favoriete_nummer = -7
 aantal_fietsen = 2
 
-#Tot slot zijn er ook nog decimals.
-#Dit zijn nummers die niet een geheel getal zijn.
-#Voorbeelden hiervan zijn:
+# Tot slot zijn er ook nog decimals.
+# Dit zijn nummers die niet een geheel getal zijn.
+# Voorbeelden hiervan zijn:
 cijfer = 7.4
-negatieve_waarde = -10.8
+negatieve_waarde = -10
 
-#Het mooie aan variabelen is dat je de waarde gedurende de code kunt aanpassen.
-#Dus, je kunt gerust zeggen:
+# Het leuke aan variabelen is dat je de waarde gedurende de code kunt aanpassen.
+# Dus, je kunt gerust zeggen:
 leeftijd = 22
 leeftijd = 23
 
-#De naam van de variabele is altijd één woord en mag bestaan uit letters, hoofdletters,
-#liggende streepjes en o.a. nummers. Zo is een variabelenaam als 'Persoon3' en 'Persoon_3'
-#toegestaan, maar een variabelenaam als '234' niet toegestaan.
+# De naam van de variabele is altijd één woord en mag bestaan uit letters, hoofdletters,
+# liggende streepjes en o.a. nummers. Zo is een variabelenaam als 'Persoon3' en 'Persoon_3'
+# toegestaan, maar een variabelenaam als '234' niet toegestaan.
 
 
-#Dingen die je nu moet weten:
+# Dingen die je nu moet weten:
 #  Variabele
 #  String
 #  Integer
 #  Decimal
 #  Hoe je variabelen kunt aanpassen
+
+
+#----------------------------------------------------------------------
+# Opdrachten die je nu moet kunnen maken
+# 1) Maak een variabele aan voor je naam, een variabele voor je leeftijd, en een variabele voor je hobby.
+#    Verdander de waarde van de hobby-variabele tijdens de code.
