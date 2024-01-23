@@ -1,0 +1,54 @@
+# In this section, we'll be discussing variables.
+# Variables are essentially containers: they store information.
+# For instance, I can create a variable named 'name' with the value 'Dirk'.
+# I do it as follows:
+name = "Dirk"
+
+# In this case, I've created a variable named 'name' with the value 'Dirk'.
+# I can also write it like this:
+name = 'Dirk'
+
+# In the above examples, I created a string.
+# A string is essentially a word.
+# Examples of strings are as follows:
+car_brand = "Peugeot"
+favorite_dish = "pizza"
+color = "green"
+
+# The values of strings are always indicated with quotation marks.
+# Double quotation marks on both sides or single quotation marks on both sides do not matter.
+# In the above cases, it's always about strings (words), but we also have numbers.
+# Whole numbers are also called integers.
+# Examples of integers are:
+age = 22
+favorite_number = -7
+number_of_bikes = 2
+
+# Finally, there are also decimals.
+# These are numbers that are not whole numbers.
+# Examples of these are:
+grade = 7.4
+negative_value = -10
+
+# The interesting thing about variables is that you can change the value during the code.
+# So, you can confidently say:
+age = 22
+age = 23
+
+# The name of the variable is always one word and can consist of letters, capital letters,
+# underscores, and numbers, among other things. So, a variable name like 'Person3' and 'Person_3'
+# is allowed, but a variable name like '234' is not allowed.
+
+
+# Things you need to know now:
+# Variable
+# String
+# Integer
+# Decimal
+# How to modify variables
+
+
+#----------------------------------------------------------------------
+# Exercises you should be able to do now
+# 1) Create a variable for your name, a variable for your age, and a variable for your hobby.
+#    Change the value of the hobby variable during the code.
