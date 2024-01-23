@@ -1,0 +1,92 @@
+# In python werken we veel met if-statements
+# Dit zijn momenten waarbij je zegt: "Als [DIT] gebeurt, doe dan [DAT]".
+# Bijvoorbeeld:
+age = 19
+if age >= 18:
+  print("Volwassenen")
+
+# In het bovenstaande voorbeeld wordt er dus alleen "Volwassenen" geprint
+# als je ouder of even oud bent als 18. Als je niet zo oud bent, gebeurt
+# er niks. Het deel "age >= 18" heet de conditie (voorwaarde).
+# Hetgeen dat onder de if-statement staat heet de 'if-statement body'.
+# De body wordt gekenmerkt door een tab op elke regel, zodat duidelijk is
+# welke regels bij de if-statement horen en welke daarbuiten staan.
+
+if age > 10:
+  print("Dit is de body van de if statement")
+  print("Dit staat ook in de body")
+print("Dit staat buiten de body van de if-statement")
+
+# Of je in de body van de if-statement komt ligt aan de conditie:
+# Op conditie van de statement wordt de body wel of niet benadert.
+
+
+# Er zijn naast if-statement ook if-else statements. Dit zijn statements
+# waarbij je alsnog in de else-body komt indien de if-statement niet goed
+# is.
+# Voorbeeld:
+
+if age >= 18:
+  print("Volwassen")
+else:
+  print("Kind")
+
+# Let hierbij op dat de body van de if-statement ook een tab verwijdert is
+# als de "else"!
+# Let er ook op dat er geen statement na "else" komt! Er volgt namelijk meteen een ':'
+
+# Er zijn ook nog if-elif-else statements:
+
+if age >= 65:
+  print("Bejaard")
+elif age >= 18 and age < 65:
+  print("Volwassen")
+else:
+  print("Kind")
+
+# Als de if-statement hierboven correct is, wordt de body van 'if' uitgevoerd en wordt
+# de body van 'elif' en 'else' negeert.
+# Indien de elif-statement correct is, wordt alleen de body van 'elif' uitgevoerd.
+# Indien de if-statement en elif-statement incorrect zijn, wordt alleen de body van 'else' uitgevoerd.
+
+# De elif-statement wordt dus geformuleerd als een if-statement en heeft dus
+# ook een conditie.
+
+# Tot slot kun je ook meerdere condities (voorwaarden) in 1 if-statement of elif-statement stoppen.
+# Dat kun je doen door 'or' en 'and'.
+# 'and' betekent dat beide statements correct moeten zijn om in de if-body terecht te komen.
+# 'or' betekent dat minimaal 1 van de twee statements correct moeten zijn om in de if-body terecht te komen.
+# Bijvoorbeeld:
+if age >= 10 and age < 20:
+  print("Tiener")
+
+# In het bovenstaande voorbeeld wordt dus alleen "Tiener" uitgeprint als je minimaal 10 jaar en minder dan 20 jaar bent.
+# Pas als aan beide voorwaarden wordt voldaan, wordt "Tiener" uitgeprint.
+
+
+# Dingen die je moet hebben geleerd:
+#  if-statement
+#  if-else statements
+#  if-elif-else statements
+#  if-body
+#  elif-body
+#  else-body
+#  and (in if-statement of elif-statement)
+#  or (in if-statement of elif-statement)
+#  conditie
+
+
+
+# -------------------------------------------------------------------
+# Opdrachten die je nu moet kunnen maken:
+# 1) Maak een variabele aan waar je jouw naam in opslaat.
+#    Print vervolgens "Jij heet Timo!" uit als je naam gelijk is aan "Timo".
+# 2) Maak een variabele aan genaamd "portemonnee". Zet daarin hoeveel geld er in de portemonnee zit (bv. 200 voor 200 euro).
+#    Print "Rijk" uit als er meer dan 500 euro in zit.
+#    Print "Redelijk rijk" uit als er tussen de 200 en 500 euro in zit.
+#    Print "Arm" uit als er minder dan 200 euro in zit.
+#    Probeer ook het bedrag dat in de portemonnee zit aan te passen om te kijken in welke body (if-body, elif-body, else-body) 
+#    je terecht komt.
+
+
+
