@@ -1,0 +1,83 @@
+# In Python, we often use if-statements.
+# These are moments when you say: "If [THIS] happens, then do [THAT]".
+# For example:
+age = 19
+if age >= 18:
+    print("Adult")
+
+# In the above example, "Adult" is printed only if you are older or as old as 18.
+# If you are not that old, nothing happens. The part "age >= 18" is called the condition.
+# What is under the if-statement is called the 'if-statement body'.
+# The body is marked by an indentation on each line, so it's clear which lines belong
+# to the if-statement and which are outside.
+
+if age > 10:
+    print("This is the body of the if statement")
+    print("This is also in the body")
+print("This is outside the body of the if-statement")
+
+# Whether you enter the body of the if-statement depends on the condition:
+# Based on the condition of the statement, the body is approached or not.
+
+# Besides if-statements, there are also if-else statements. These are statements
+# where you still enter the else-body if the if-statement is not true.
+# Example:
+
+if age >= 18:
+    print("Adult")
+else:
+    print("Child")
+
+# Note that the body of the if-statement also has an indentation removed with "else"!
+# Also, note that there is no statement after "else"! A ':' immediately follows.
+
+# There are also if-elif-else statements:
+
+if age >= 65:
+    print("Elderly")
+elif age >= 18 and age < 65:
+    print("Adult")
+else:
+    print("Child")
+
+# If the if-statement above is correct, the body of 'if' is executed, and the body
+# of 'elif' and 'else' is ignored.
+# If the elif-statement is correct, only the body of 'elif' is executed.
+# If the if-statement and elif-statement are incorrect, only the body of 'else' is executed.
+
+# The elif-statement is formulated as an if-statement and thus has a condition.
+
+# Finally, you can also include multiple conditions in 1 if-statement or elif-statement.
+# You can do this using 'or' and 'and'.
+# 'and' means that both statements must be true to enter the if-body.
+# 'or' means that at least one of the two statements must be true to enter the if-body.
+# For example:
+if age >= 10 and age < 20:
+    print("Teenager")
+
+# In the above example, "Teenager" is printed only if you are at least 10 years old and less than 20 years old.
+# "Teenager" is printed only if both conditions are met.
+
+
+# Things you should have learned:
+#  if-statement
+#  if-else statements
+#  if-elif-else statements
+#  if-body
+#  elif-body
+#  else-body
+#  and (in if-statement or elif-statement)
+#  or (in if-statement or elif-statement)
+#  condition
+
+
+# -------------------------------------------------------------------
+# Exercises you should be able to do now:
+# 1) Create a variable to store your name.
+#    Print "You are Timo!" if your name is equal to "Timo".
+# 2) Create a variable named "wallet". Put in it how much money is in the wallet (e.g., 200 for 200 euros).
+#    Print "Rich" if there is more than 500 euros in it.
+#    Print "Reasonably rich" if there is between 200 and 500 euros.
+#    Print "Poor" if there is less than 200 euros.
+#    Also, try adjusting the amount in the wallet to see which body (if-body, elif-body, else-body)
+#    you end up in.
