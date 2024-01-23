@@ -26,7 +26,7 @@ print("Over een jaar ben je", leeftijd + 1, "jaar oud!")
 # input()
 
 
-------------------------------------------------------------------------
+# ------------------------------------------------------------------------
 # Opdrachten die je nu moet kunnen maken:
 # 1) Print een introductie van jezelf uit. Zeg bijvoorbeeld:
 #    "Hallo, ik ben Dirk en ik ben 23 jaar oud"
