@@ -1,0 +1,38 @@
+# Hier ga ik dictionaries behandelen.
+# Dictionaries zijn een ander type container in Python.
+# Ze slaan paren van sleutel-waarde op.
+# Je kunt bijvoorbeeld een dictionary maken genaamd 'persoon' met sleutels als 'naam', 'leeftijd' en 'hobby',
+# en hun respectieve waarden.
+# Dat doe ik op de volgende manier:
+persoon = {"naam": "Dirk", "leeftijd": 23, "hobby": "wandelen"}
+# In dit geval heb ik een dictionary genaamd 'persoon' aangemaakt met de sleutels "naam", "leeftijd" en "hobby",
+# en hun respectieve waarden.
+
+# In het bovenstaande voorbeeld heb ik een dictionary aangemaakt met verschillende datatypes als waarden.
+# De sleutels moeten uniek zijn binnen een dictionary, maar de waarden kunnen dat wel overlappen.
+boodschappenlijst = {"appels": 3, "bananen": 5, "melk": 3}
+
+# De sleutel-waarde paren worden gescheiden door komma's en de hele dictionary wordt geplaatst tussen accolades {}.
+# Het leuke aan dictionaries is dat je een waarde snel kunt opzoeken, die bij een betreffende sleutel hoort.
+# Bijvoorbeeld:
+persoon = {"naam": "Dirk", "leeftijd": 23, "hobby": "wandelen"}
+print(persoon["naam"]) # Dit zal 'Dirk' afdrukken
+
+# Net als bij variabelen en lists, zijn er bepaalde regels voor de namen van dictionaries:
+# De naam van de dictionary is één woord en mag bestaan uit letters, hoofdletters,
+# liggende streepjes en o.a. nummers. Zo is een dictionarynaam als 'mijn_dict' en 'boodschappen_dict'
+# toegestaan, maar een dictionarynaam als '12' niet toegestaan.
+
+
+# Dingen die je nu moet weten:
+#  Dictionary
+#  sleutels
+#  Sleutel-waarde paren
+#  Hoe je dictionaries kunt gebruiken om informatie op te zoeken
+
+
+
+#----------------------------------------------------------------------
+# Opdrachten die je nu moet kunnen maken
+# 1) Maak een dictionary aan met de namen van je vrienden als sleutels en hun leeftijden als waarden.
+#    Verander de leeftijd van een vriend in de dictionary tijdens de code.
