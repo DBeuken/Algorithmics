@@ -1,0 +1,81 @@
+# Hier bespreek ik for-loops.
+# Een for-loop is een manier in python om een stuk code te herhalen.
+# Het herhalen van een stuk code kan met zowel een for-loop en een while-loop.
+# Je gebruikt een for-loop wanneer je weet hoe vaak je iets herhaalt,
+# en je gebruikt een while-loop wanneer je nog niet weet hoe vaak je iets gaat herhalen.
+# De while-loop wordt niet hier besproken, maar in het volgende hoofdstuk.
+
+# For loops komen van pas wanneer je iets meerdere keren wilt uitvoeren achter elkaar.
+# Bijvoorbeeld:
+for ronde in range(10):
+    print("Dit wordt 10 keer geprint")
+
+# In het bovenstaande voorbeeld kunnen we met slechts twee regels code een regel 10 keer uitprinten!
+# Dat is veel efficiënter dan wanneer we 10 keer achter elkaar 'print("Dit wordt 10 keer geprint")' uitprinten
+# In dit geval hebben we voor "ronde" gekozen om de ronde aan te duiden.
+# Dit had ook een ander woord kunnen zijn.
+# Verder is ook te zien dat we "range(10)" gebruiken om aan te geven dat we 10 rondes willen.
+# Als we 5 rondes zouden willen, hadden we "range(5)" kunnen gebruiken.
+
+# Als we een for-loop gebruiken, kunnen we samen met de input-command bepalen hoeveel rondes we uitprinten.
+# Bijvoorbeeld:
+rondes = int(input("Rondes: "))
+for ronde in range(rondes):
+    print("Dit wordt", rondes, "keer uitgeprint.")
+    
+# Indien je tijdens de rondes wil weten in welke ronde je zit, kun je "ronde" uitprinten
+for ronde in range(rondes):
+    print("Dit is ronde", ronde)
+
+
+# Binnen for-loops kun je print-statements, if-else-statements, andere for-loops, etc. plaatsen.
+# Denk aan een programma dat je vraagt om je wachtwoord. Als het wachtwoord correct is, 
+# krijg je toegang en als het wachtwoord drie keer verkeerd is ingevoerd, wordt toegang gewijgerd.
+for ronde in range(3):
+    invoer = input("Wat is je wachtwoord?")
+    if invoer == "MijnWachtwoord":
+        print("Wachtwoord is goed.")
+        break
+    else:
+        print("Wachtwoord is fout")
+        if ronde == 2: #0, 1, 2 (Dus derde ronde)
+            print("Wachtwoord drie keer fout. Probeer later nog eens")
+            
+# In het bovenstaande voorbeeld zie je dat we if-else-statements binnen de for-loop plaatsen.
+# Kijk ook goed naar de break-statement.
+# Break betekent simpelweg dat de for-loop wordt afgekapt.
+# Want als je je wachtwoord al meteen goed hebt, hoef je niet nog twee keer je wachtwoord in te vullen.
+
+# Stel dat je een lijst (een verzameling van meerdere waarden) hebt, kun je die makkelijk uitprinten
+# via een for-loop.
+# Bijvoorbeeld
+boodschappen = ["paprika", "kaas", "vlees"]
+for item in boodschappen:
+    print(item)
+            
+
+
+# Dingen die je nu moet weten:
+#  for-loops
+#  range()
+#  break
+
+
+# -------------------------------------------------------------------
+# Opdrachten die je nu zou moeten kunnen maken:
+# 1) Maak een variabele aan genaamd "rondes". Zet daar een waarde in, bijvoorbeeld 5.
+#    Zorg ervoor dat een for-loop iets uitprint, zo vaak als dat "rondes" aangeeft.
+#    Dus stel dat rondes = 5, dan moet je via een for-loop 5 keer hetzelfde uitprinten, zoals:
+#    iets
+#    iets
+#    iets
+#    iets
+#    iets
+# 2) Stel dat ik een lijst heb: schoolcijfers = [8, 7, 6, 8, 5]
+#    Print nu alle cijfers achter elkaar uit via een for-loop.
+# 3) Maak een for-loop die je vraagt om een rekensom op te lossen.
+#    Vraag of de gebruiker de rekensom 5 + 4 op kan lossen.
+#    Zorg ervoor dat deze persoon vijf kansen heeft.
+#    Als de persoon het goede antwoord geeft, moet het programma zeggen: "Goedzo".
+#    Dan wordt ook meteen de for-loop afgekapt met een break-statement
+#    Als de persoon het foute antwoord geeft, moet het programma zeggen: "Fout".
