@@ -1,0 +1,38 @@
+# Hier ga ik lists behandelen.
+# Lists zijn een soort containers die meerdere waarden kunnen bevatten.
+# Je kunt bijvoorbeeld een lijst maken genaamd 'nummers' met de waarden 1, 2 en 3.
+# Dat doe ik op de volgende manier:
+nummers = [1, 2, 3]
+# In dit geval heb ik een list aangemaakt genaamd 'nummers' met de waarden 1, 2 en 3 erin.]
+
+# In het bovenstaande geval heb ik een lijst van integers (gehele getallen) aangemaakt.
+# Een list kan echter verschillende datatypes bevatten, zoals strings, integers, decimals, en zelfs andere lists.
+# Voorbeelden van lists met verschillende datatypes zijn:
+lijst_met_datatypes = [1, "hello", 3.14]
+boodschappenlijst = ["appels", "bananen", "melk"]
+
+# De waarden van lists worden gescheiden door komma's en geplaatst tussen vierkante haakjes.
+# In de bovenstaande voorbeelden zie je dat we zowel gehele getallen, strings als decimals kunnen opslaan in een list.
+# Het leuke aan lists is dat je ze kunt aanpassen en uitbreiden gedurende de code.
+# Dus, je kunt gerust zeggen:
+nummers = [1, 2, 3]
+nummers[1] = 5
+
+# In dit geval heb ik de waarde op de tweede positie (index 1) van de list 'nummers' veranderd van 2 naar 5.
+# Net als bij variabelen, zijn er bepaalde regels voor de namen van lists:
+# Allereerst is de naam van de list één woord en mag bestaan uit letters, hoofdletters,
+# liggende streepjes en o.a. nummers. Zo is een listnaam als 'lijst1' en 'mijn_lijst'
+# toegestaan, maar een listnaam als '12' niet toegestaan.
+
+
+# Dingen die je nu moet weten:
+#  List
+#  Indexing (index)
+#  Hoe je lists kunt aanpassen
+
+
+
+#----------------------------------------------------------------------
+# Opdrachten die je nu moet kunnen maken
+# 1) Maak een lijst aan met de namen van je favoriete kleuren.
+#    Verander de waarde van een kleur in de lijst tijdens de code.
