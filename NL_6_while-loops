@@ -1,0 +1,58 @@
+# Hier bespreek ik while-loops.
+# While-loops is een manier om een stuk code te herhalen.
+# In het vorige hoofdstuk kwamen for-loops aan bod. Hier komen while-loops aan bod.
+# while-loops zijn bedoeld voor de momenten wanneer je een stuk code wilt herhalen,
+# maar je weet nog niet hoe vaak je wil herhalen.
+# Stel dat je een rekensommetje voorschotelt, en je wil dat er opnieuw wordt geprobeerd
+# tot dat het antwoord correct is:
+uitkomst = 8 
+antwoord = int(input("Wat is 5 + 3?"))
+while uitkomst != antwoord:
+    print("Fout antwoord, probeer opniew.")
+    antwoord = int(input("Wat is 5 + 3?"))
+
+# Als je dit bovenstaande programma uitvoert, zul je zien dat het na één antwoord al voorbij kan zijn,
+# maar dat het ook oneindig lang kan duren.
+# Zoals je ziet gaat de while-loop door net zolang als dat uitkomst niet gelijk is aan antwoord.
+# Als je goed kijt, zie je dat de while-loop een beetje op een if-statement lijkt.
+# Net zoals de if-statement heeft de while-loop een conditie (een voorwaarde), in dit geval 
+# dat de uitkomst niet gelijk is aan het antwoord.
+# Het grote verschil is dat de if-statement slechts één keer wordt uitgevoerd, en de while-loop net zo 
+# lang als dat de conditie waar is.
+
+
+# Je kunt ook een programma schrijven dat door gaat, tot je "stop" zegt.
+# Bijvoorbeeld:
+antwoord = ""
+while antwoord != "stop":
+    antwoord = input("Vul iets in (stop = einde):")
+    print("Je vulde in:", antwoord)
+
+
+# Je zou ook "True" samen met een break-statement kunnen gebruiken om een while-loop werkende te krijgen.
+# Bijvoorbeeld:
+while True:
+    antwoord = input("Vul iets in (stop = einde):")
+    print("Je vulde in:", antwoord)
+    if antwoord == "stop":
+        break
+    
+# In het bovenstaande voorbeeld is "while True" te zien. Dit betekent dat de while-loop altijd door zal 
+# blijven gaan, tenzij een "break" de while-loop afkapt.
+# In het bovenstaande voorbeeld is ook te zien dat if-statements in while-loops kunnen zitten.
+# Verder kunnen if-else-statements, for-loops, andere while-loops, etc. allemaal in een while-loop zitten.
+
+
+# Dingen die je nu moet weten:
+#  while-loop
+#  while True
+#  break
+
+
+
+#---------------------------------------------------------------------------
+# Opdrachten die je nu moet kunnen maken:
+# 1) Stel iemand de vraag in welk jaar Einstein was geboren (1879).
+#    Zorg er vervolgens voor dat de persoon een jaartal moet blijven invoeren, tot dat het antwoord correct is.
+#    Als het antwoord correct is, moet je uitprinten: "Goedzo"
+#    Als het antwoord incorrect is, moet je zeggen: "Fout, probeer nog eens"
