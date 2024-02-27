@@ -1,0 +1,58 @@
+# Here I discuss while-loops.
+# While-loops are a way to repeat a piece of code.
+# The previous chapter discussed for-loops. This is where while-loops come into play.
+# while-loops are for when you want to repeat a piece of code,
+# but you don't know yet how often you want to repeat.
+# Suppose you are presented with a calculation problem and you want it to be tried again
+# until the answer is correct:
+result = 8
+answer = int(input("What is 5 + 3?"))
+while outcome != answer:
+     print("Wrong answer, please try again.")
+     answer = int(input("What is 5 + 3?"))
+
+# If you run this program above, you will see that it can be over after one answer,
+# but that it can also take an infinitely long time.
+# As you can see, the while-loop continues as long as the outcome is not equal to the answer.
+# If you look closely, you'll see that the while loop looks a bit like an if statement.
+# Just like the if statement, the while-loop has a condition, in this case
+# that the result is not equal to the answer.
+# The big difference is that the if-statement is executed only once, and the while loop is executed the same way
+# long if the condition is true.
+
+
+# You can also write a program that continues until you say "stop".
+# For example:
+answer = ""
+while answer != "stop":
+     answer = input("Enter something (stop = end):")
+     print("You entered:", answer)
+
+
+# You could also use "True" with a break-statement to get a while-loop working.
+# For example:
+while True:
+     answer = input("Enter something (stop = end):")
+     print("You entered:", answer)
+     if answer == "stop":
+         break
+    
+# The example above shows "while True". This means that the while-loop will always
+# keep going unless a "break" truncates the while loop.
+# The above example also shows that if-statements can be in while loops.
+# Furthermore, if-else statements, for loops, other while loops, etc. can all be in a while loop.
+
+
+# Things you need to know now:
+# while-loop
+# while(True)
+# break
+
+
+
+#---------------------------------------------------------------- --------------------------
+# Assignments you should now be able to complete:
+#1) Ask someone what year Einstein was born.
+# Then make sure that the person has to keep entering a year until the answer is correct (correct = 1879).
+# If the answer is correct, you must print out: "Good answer!"
+# If the answer is incorrect, you should say: "Wrong, try again"
