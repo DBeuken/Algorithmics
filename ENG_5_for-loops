@@ -1,0 +1,81 @@
+# Here I discuss for-loops.
+# A for loop is a way in Python to iterate over a piece of code.
+# Repeating a piece of code can be done with both a for-loop and a while-loop.
+# You use a for-loop when you know how often you repeat something,
+# and you use a while-loop when you don't know yet how often you are going to repeat something.
+# The while-loop is not discussed here, but in the next chapter.
+
+# For-loops come in handy when you want to perform something multiple times in succession.
+# For example:
+for thisround in range(10):
+     print("This will be printed 10 times")
+
+# In the example above, with just two lines of code we can print a line 10 times!
+# That is much more efficient than if we state 'print("This will be printed 10 times")' 10 times in a row
+# In this case we chose "thisround" to indicate the round we're in at the moment.
+# This could also have been another word.
+# You can also see that we use "range(10)" to indicate that we want 10 rounds in total.
+# If we wanted 5 rounds, we could have used "range(5)".
+
+# If we use a for loop, we can use the input command to determine how many rounds we print.
+# For example:
+rounds = int(input("Rounds: "))
+for round in range(rounds):
+     print("This will be printed", rounds, "times.")
+    
+# If you want to know which round you are in during the rounds, you can print out the value of "thisround".
+for thisround in range(rounds):
+     print("This is round", thisround)
+
+
+# Within for-loops you can place print statements, if-else statements, other for-loops, etc.
+# Think of a program that asks you for your password. If the password is correct,
+# you will be granted access and if the password is entered incorrectly three times, access will be denied.
+for thisround in range(3):
+     input = input("What is your password?")
+     if input == "MyPassword":
+         print("Password is correct.")
+         break
+     else:
+         print("Password is wrong")
+         if thisround == 2: #0, 1, 2 (So third round)
+             print("Password entered incorrectly three times. Please try again later")
+            
+# In the example above you can see that we place if-else statements inside the for-loop.
+# Also look carefully at the break statement.
+# Break simply means that the for-loop is truncated.
+# Because if you get your password right right away, you don't have to enter your password twice.
+
+# Suppose you have a list (a collection of multiple values), you can easily print it out
+# via a for loop.
+# For example
+groceries = ["pepper", "cheese", "meat"]
+for item in groceries:
+     print(item)
+            
+
+
+# Things you need to know now:
+# for-loops
+# range()
+# break
+
+
+# ------------------------------------------------- ------------------
+# Exercises you should now be able to make:
+#1) Create a variable called "rounds". Enter a value there, for example 5.
+# Make sure a for-loop prints something as many times as it specifies "rounds".
+# So suppose that rounds = 5, then you have to print the same thing 5 times via a for-loop, like:
+#    something
+#    something
+#    something
+#    something
+#    something
+#2) Suppose I have a list: school grades = [8, 7, 6, 8, 5]
+# Now print out all the numbers one after the other via a for-loop.
+#3) Create a for loop that asks you to solve a math problem.
+# Ask if the user can solve the math problem 5 + 4.
+# Make sure this person has five chances.
+# If the person gives the correct answer, the program should say: "Good for you."
+# Then the for loop is immediately cut off with a break statement.
+# If the person gives the wrong answer, the program should say: "Wrong".
